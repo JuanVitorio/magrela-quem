@@ -9,7 +9,7 @@ function removerEspecial(texto) {
   texto = texto.replace(/[ÈÉÊË]/, "E");
   texto = texto.replace(/[Ç]/, "C");
   texto = texto.replace(/[ç]/, "c");
-  return texto.replace(/[^a-z0-9]/gi, '');
+  return texto.replace(/[^a-z0-9]/, '');
 }
 
 function verificar() {
