@@ -34,14 +34,16 @@ function verificar() {
       img.src = 'img/edson.png'
     } else if (arr[0] == 'misac' || nome_real == 'gordo') {
       img.src = 'img/misac.png'
-    } else if (arr[0] == 'nicolau') {
+    } else if (arr[0] == 'nicolau' || nome_real == 'nic') {
       img.src = 'img/nicolau.png'
     } else if (arr[0] == 'ruslan' || nome_real == 'lanlan') {
       img.src = 'img/ruslan.png'
     } else if (arr[0] == 'rhuan' || nome_real == 'juarez') {
       img.src = 'img/rhuan.png'
+    } else if (arr[0] == 'rayan' || nome_real == 'zlk') {
+      img.src = 'img/rayan.png'
     } else {
-      alert('Você digitou isso direito?')
+      alert('Digite alguém que eu conheço ou confira se digitou certo')
     }
   }
 
